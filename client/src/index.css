@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Roboto",sans-serif;
+}
+
+center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+cursor{
+  cursor: pointer;
+}
+
+.orange-cell {
+  color: #F29F05;
+}
+
+.orange-cell:hover{
+  background-color: #f29f05;
+  color: black;
+  transition: 1.5s;  
+}
+
+.video{
+width: 100%;
+height: 10%;
+object-fit: cover;
+position: absolute;
+}
+
