@@ -59,7 +59,7 @@ const UsersTable = ({ users, onDelete, onChangeStatus, handleGetUser }) => {
           columns={columns}
           pageSize={5}
           rowsPerPageOptions={[5]}
-          // onRowClick={(params) => navigate(`${ROUTES.USER_PROFILE}/${params.id}`)}
+          // אופציה קיימת להוספת פיצ'רים בלחיצה על השורה
           onRowClick={() => navigate(``)}
         ></DataGrid>
       </div>

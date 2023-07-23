@@ -1,13 +1,12 @@
 import React from "react";
 import { AppBar, Box, Toolbar, Typography } from "@mui/material";
-import sea from "../../assets/sea.mp4";
 import { Link, useNavigate } from "react-router-dom";
 const Header = () => {
   const navigate = useNavigate();
   return (
     <>
       <Box sx={{ flexGrow: 1 }}>
-        <video className="video" src={sea} autoPlay loop muted />
+        <video className="video" src={"https://res.cloudinary.com/dncufgdch/video/upload/v1690143871/avip0e7wjmqstef8ugev.mp4"} autoPlay loop muted />
 
         <AppBar position="static" sx={{ backgroundColor: "white" }}>
           <Toolbar>

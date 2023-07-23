@@ -22,7 +22,7 @@ const UserForm = ({
     >
       <Input
         name="first_name"
-        label="first name"
+        label="First name"
         error={errors.first_name}
         onChange={onInputChange}
         data={data}
@@ -30,7 +30,7 @@ const UserForm = ({
       />
       <Input
         name="last_name"
-        label="last name"
+        label="Last name"
         error={errors.last_name}
         onChange={onInputChange}
         data={data}
@@ -38,7 +38,7 @@ const UserForm = ({
       />
       <Input
         name="phone_number"
-        label="phone"
+        label="Phone"
         type="phone"
         error={errors.phone_number}
         onChange={onInputChange}
@@ -47,7 +47,7 @@ const UserForm = ({
       />
       <Input
         name="email"
-        label="email"
+        label="Email"
         type="email"
         error={errors.email}
         onChange={onInputChange}
@@ -57,7 +57,7 @@ const UserForm = ({
 
       <Input
         name="country"
-        label="country"
+        label="Country"
         error={errors.country}
         onChange={onInputChange}
         data={data}
@@ -65,7 +65,7 @@ const UserForm = ({
       />
       <Input
         name="city"
-        label="city"
+        label="City"
         error={errors.city}
         onChange={onInputChange}
         data={data}
@@ -73,7 +73,7 @@ const UserForm = ({
       />
       <Input
         name="job_title"
-        label="job title"
+        label="Job title"
         error={errors.job_title}
         onChange={onInputChange}
         data={data}
@@ -81,7 +81,7 @@ const UserForm = ({
       />
       <Input
         name="years_of_experience"
-        label="years of experience"
+        label="Years of experience"
         type={"number"}
         error={errors.years_of_experience}
         onChange={onInputChange}
