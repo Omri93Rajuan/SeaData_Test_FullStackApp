@@ -1,6 +1,6 @@
 const express =  require ("express")
 const router =  express.Router()
-const dataRestController = require("../data/routes/dataRestController")
+const dataRestController = require("../data/dataRestController")
 const { handleError } = require("../utils/handleErrors");
 
 

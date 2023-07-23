@@ -14,7 +14,7 @@ const Input = ({
   ...rest
 }) => {
   return (
-    <Grid item xs={12} {...rest}>
+    <Grid item xs={12} {...rest} sx={{marginBottom:"8px"}}>
       <TextField
         variant={variant}
         label={label}

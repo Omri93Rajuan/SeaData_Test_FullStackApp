@@ -40,7 +40,7 @@ const MainPage = () => {
         aria-label="add"
         sx={{
           position: "absolute",
-          top: 75,
+          bottom: 75,
           right: 16,
         }}
       >

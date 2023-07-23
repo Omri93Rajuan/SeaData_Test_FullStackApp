@@ -58,7 +58,7 @@ const UserForm = ({
       <Input
         name="country"
         label="country"
-        error={errors.url}
+        error={errors.country}
         onChange={onInputChange}
         data={data}
         sm={6}
@@ -66,7 +66,7 @@ const UserForm = ({
       <Input
         name="city"
         label="city"
-        error={errors.alt}
+        error={errors.city}
         onChange={onInputChange}
         data={data}
         sm={6}
@@ -74,7 +74,7 @@ const UserForm = ({
       <Input
         name="job_title"
         label="job title"
-        error={errors.state}
+        error={errors.job_title}
         onChange={onInputChange}
         data={data}
         sm={6}
@@ -83,7 +83,7 @@ const UserForm = ({
         name="years_of_experience"
         label="years of experience"
         type={"number"}
-        error={errors.country}
+        error={errors.years_of_experience}
         onChange={onInputChange}
         data={data}
         sm={6}
