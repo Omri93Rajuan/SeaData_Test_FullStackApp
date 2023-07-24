@@ -14,7 +14,7 @@ const MainPage = () => {
 
   useEffect(() => {
     dispatch(getUsersFetch());
-  }, [dispatch]);
+  }, [dispatch,users]);
 
   return (
     <Container>
